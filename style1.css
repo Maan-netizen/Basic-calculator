@@ -1,0 +1,15 @@
+/* Custom styles can be added here, though Tailwind covers most needs */
+/* Ensure the font Inter is applied universally */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Optional custom styles for transitions and hover effects not directly covered by Tailwind's default classes */
+.btn {
+    transition: all 0.2s ease-in-out;
+}
+
+/* Specific styling for the display input */
+#display::placeholder {
+    color: #a0a0a0; /* Adjust placeholder color for better visibility */
+}
